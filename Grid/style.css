@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #edf2f8;
+}
+.container{
+
+    margin-top: 75px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,300px);
+    grid-template-areas: "daniel daniel john kira"
+                         "jean patrick patrick kira";
+    gap: 10px;
+ 
+                        
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+ }
+
+ .dan{
+    grid-area: daniel;
+    border-radius: 10px;
+    background-color: #733fc8;
+ }
+ .jo{
+    grid-area: john;
+    border-radius: 10px;
+    background-color: #49556b;
+ }
+ .kir{
+    grid-area: kira;
+    border-radius: 10px;
+    background-color: #ffffff;
+ }
+ .jan{
+    grid-area: jean;
+    border-radius: 10px;
+    background-color: #ffffff;
+ }
+ .pat{
+    grid-area: patrick;
+    border-radius: 10px;
+    background-color: #18202d;
+ }
+
+ .daniel h5{
+   color: #e9d0f0;
+   font-size: larger;
+   background-color: #733fc8;
+ }
+
+ .daniel h6{
+   background-color: #733fc8;
+ }
