@@ -13,17 +13,17 @@
     grid-template-rows: repeat(2,300px);
     grid-template-areas: "daniel daniel john kira"
                          "jean patrick patrick kira";
-    gap: 10px;
+    gap: 30px;
  
                         
 }
 
 .container div{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
-    align-items: center;
-    border: 1px solid black;
+    /* align-items: center; */
+    /* border: 1px solid black; */
  }
 
  .dan{
@@ -51,13 +51,161 @@
     border-radius: 10px;
     background-color: #18202d;
  }
-
+img{
+   width: 35px;
+  height: 35px;
+  border-radius: 25px 25px 25px 25px ;
+  position: relative;
+  top: 35px;
+  left: 50px;
+}
  .daniel h5{
    color: #e9d0f0;
-   font-size: larger;
+   /* font-size: larger; */
    background-color: #733fc8;
+   margin-left: 100px;
  }
 
  .daniel h6{
+   /* font-size: 16px; */
+   color: #a577ee;
    background-color: #733fc8;
+   margin-left: 100px;
+   margin-top: 3px;
  }
+ .daniel h4{
+   font-size: larger;
+   background-color: #733fc8;
+   color: #fbecff;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+ .daniel p{
+   font-size: 15px;
+   color: #a577ee;
+   background-color: #733fc8;
+   margin-left: 50px;
+   margin-top: 20px; 
+   margin-right: 50px;
+ } 
+ .john h5{
+   color: #f2fafb;
+   /* font-size: larger; */
+   background-color: #49556b;
+   margin-left: 100px;
+ }
+ .john h6{
+   /* font-size: 16px; */
+   color: #97a2b4;
+   background-color: #49556b;
+   margin-left: 100px;
+   margin-top: 3px;
+   }
+ .john h4{
+   font-size: larger;
+   background-color: #49556b;
+   color: #fbecff;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+ .john p{
+   font-size: 15px;
+   color: #b7bfcd;
+   background-color: #49556b;
+   margin-left: 50px;
+   margin-top: 20px; 
+   margin-right: 50px;
+ } 
+ .jean h5{
+   color: #3a3d43;
+   /* font-size: larger; */
+   background-color: #ffffff;
+   
+   margin-left: 100px;
+ }
+ .jean h6{
+   /* font-size: 16px; */
+   color: #97a2b4;
+   background-color: #ffffff;
+   margin-left: 100px;
+   margin-top: 3px;
+ }
+ .jean h4{
+   font-size: larger;
+   background-color: #ffffff;
+   color: #484e5d;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+ .jean p{
+   font-size: 15px;
+   color: #91949c;
+   background-color: #ffffff;
+   margin-left: 50px;
+   margin-top: 20px; 
+   margin-right: 50px;
+ } 
+
+.kira h5{
+  color: #3a3d43;
+  /* font-size: larger; */
+  background-color: #ffffff;
+  
+  margin-left: 100px;
+}
+.kira h6{
+  /* font-size: 16px; */
+  color: #97a2b4;
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-top: 3px;
+}
+.kira h4{
+  font-size: larger;
+  background-color: #ffffff;
+  color: #484e5d;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.kira p{
+  font-size: 15px;
+  color: #91949c;
+  background-color: #ffffff;
+  margin-left: 50px;
+  margin-top: 20px; 
+  margin-right: 50px;
+} 
+.patrick h5{
+   color: #f0f7fb;
+   /* font-size: larger; */
+   background-color: #18202d;
+   
+   margin-left: 100px;
+ }
+ .patrick h6{
+   /* font-size: 16px; */
+   color: #97a2b4;
+   background-color: #18202d;
+   margin-left: 100px;
+   margin-top: 3px;
+ }
+ .patrick h4{
+   font-size: larger;
+   background-color: #18202d;
+   color: #f0f7fb;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+ .patrick p{
+   font-size: 15px;
+   color: #91949c;
+   background-color: #18202d;
+   margin-left: 50px;
+   margin-top: 20px; 
+   margin-right: 50px;
+ } 
